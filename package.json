@@ -1,7 +1,16 @@
 {
-  "name": "dato-sidebar-button",
+  "name": "datocms-plugin-sidebar-button",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://github.com/ryanantonydunn/datocms-plugin-sidebar-button",
+  "description": "Customizable button in record sidebar that will post the full record to a URL",
+  "keywords": ["datocms-plugin"],
+  "datoCmsPlugin": {
+    "title": "Sidebar button",
+    "coverImage": "docs/cover.png",
+    "previewImage": "docs/preview.png",
+    "entryPoint": "build/index.html",
+    "permissions": []
+  },
   "dependencies": {
     "@types/node": "^18.19.47",
     "@types/react": "^18.3.4",
@@ -39,11 +48,5 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.3"
-  },
-  "datoCmsPlugin": {
-    "title": "",
-    "previewImage": "",
-    "coverImage": "",
-    "entryPoint": "build/index.html"
   }
 }

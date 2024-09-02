@@ -1,6 +1,6 @@
 {
   "name": "datocms-plugin-record-sidebar-button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/ryanantonydunn/datocms-plugin-sidebar-button",
   "description": "Customizable button in record sidebar that will post the full record to a URL",
   "keywords": ["datocms-plugin"],

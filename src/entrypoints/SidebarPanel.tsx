@@ -12,6 +12,7 @@ export default function SidebarPanel({ ctx }: Props) {
 
   const [isLoading, setIsLoading] = useState(false);
   async function send() {
+    
     setIsLoading(true);
     try {
       const headers: { [key: string]: string } = {};
